@@ -14,13 +14,14 @@ const net = require("net");
 
  if (process.argv.length < 7){
 	 console.log(`
-	    ███████╗██╗  ██╗██╗   ██╗███╗   ██╗███████╗████████╗
-            ██╔════╝██║ ██╔╝╚██╗ ██╔╝████╗  ██║██╔════╝╚══██╔══╝
-            ███████╗█████╔╝  ╚████╔╝ ██╔██╗ ██║█████╗     ██║  
-            ╚════██║██╔═██╗   ╚██╔╝  ██║╚██╗██║██╔══╝     ██║   
-            ███████║██║  ██╗   ██║   ██║ ╚████║███████╗   ██║   
-            ╚══════╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═══╝╚══════╝   ╚═╝
-  Usage: node SKYNET-TLS.js [TARGET] [TIME] [REQUEST] [THREAD] [PROXY FILE]`); 
+             ██████╗ ██╗  ██╗ ██████╗    
+             ██╔════╝ ██║  ██║██╔════╝    
+             ██║  ███╗███████║██║         
+             ██║   ██║██╔══██║██║         
+             ╚██████╔╝██║  ██║╚██████╗    
+              ╚═════╝ ╚═╝  ╚═╝ ╚═════╝    
+                             
+  Usage: node GHC-TLS.js [TARGET] [TIME] [REQUEST] [THREAD] [PROXY FILE]`); 
 	 process.exit();}
  const headers = {};
   function readLines(filePath) {
